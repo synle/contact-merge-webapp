@@ -1,0 +1,58 @@
+{
+  "name": "contact-merge-webapp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fluentui/react": "^7.152.0",
+    "@microsoft/applicationinsights-web": "^2.5.10",
+    "@microsoft/teams-js": "^1.8.0",
+    "axios": "^0.21.0",
+    "classnames": "^2.2.6",
+    "cross-env": "^7.0.2",
+    "http-proxy-middleware": "^1.0.6",
+    "moment": "^2.29.1",
+    "node-sass": "^5.0.0",
+    "office-ui-fabric-core": "^11.0.0",
+    "qs": "^6.9.4",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.0",
+    "socket.io-client": "^3.0.3",
+    "typescript": "^4.0.5",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.2.1",
+    "@testing-library/user-event": "^12.2.2",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^12.19.5",
+    "@types/react": "^16.9.56",
+    "@types/react-dom": "^16.9.9"
+  }
+}
